@@ -46,5 +46,13 @@ namespace Exe5_20210140014_Kelompok3
             if (DhiyaUlhaq == null)
                 Khairunnisa = null;
         }
+        public void display()
+        {
+            if (DhiyaUlhaq == null)
+            {
+                Console.WriteLine("Queue is Empty");
+                return;
+            }
+        }
     }
 }
