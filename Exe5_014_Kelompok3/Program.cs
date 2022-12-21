@@ -14,5 +14,10 @@ namespace Exe5_20210140014_Kelompok3
     class Queue
     {
         Node DhiyaUlhaq, Khairunnisa;
+        public Queue()
+        {
+            DhiyaUlhaq = null;
+            Khairunnisa = null;
+        }
     }
 }
