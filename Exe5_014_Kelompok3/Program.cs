@@ -90,13 +90,13 @@ namespace Exe5_20210140014_Kelompok3
                         case '4':
                             return;
                         default:
-                            Console.WriteLine("Invalid Option");
+                            Console.WriteLine("Opsi Tidak Benar");
                             break;
                     }
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine("Check for the values entered. ");
+                    Console.WriteLine("Periksa Nilai yang Dimasukkan. ");
                 }
             }
         }
