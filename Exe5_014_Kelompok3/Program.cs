@@ -77,6 +77,11 @@ namespace Exe5_20210140014_Kelompok3
                                 q.insert();
                                 break;
                             }
+                        case '2':
+                            {
+                                q.delete();
+                                break;
+                            }
                     }
                 }
                 catch (Exception e)
