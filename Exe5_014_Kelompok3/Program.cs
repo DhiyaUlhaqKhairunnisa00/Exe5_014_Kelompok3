@@ -19,5 +19,12 @@ namespace Exe5_20210140014_Kelompok3
             DhiyaUlhaq = null;
             Khairunnisa = null;
         }
+        public void insert()
+        {
+            string nm;
+            Node newNode = new Node();
+            Console.WriteLine("Masukkan Element");
+            nm = Console.ReadLine();
+        }
     }
 }
