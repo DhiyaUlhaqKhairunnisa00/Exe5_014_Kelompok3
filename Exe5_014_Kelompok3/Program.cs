@@ -54,5 +54,14 @@ namespace Exe5_20210140014_Kelompok3
                 return;
             }
         }
+        static void Main(string[] args)
+        {
+            Queue q = new Queue();
+            char ch;
+            while (true)
+            {
+
+            }
+        }
     }
 }
