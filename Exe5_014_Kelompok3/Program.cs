@@ -63,9 +63,9 @@ namespace Exe5_20210140014_Kelompok3
                 try
                 {
                     Console.WriteLine("Menu");
-                    Console.WriteLine("1. Implement insert operation");
-                    Console.WriteLine("2. Implement delet operation");
-                    Console.WriteLine("3. Display values");
+                    Console.WriteLine("1. Memasukkan Data");
+                    Console.WriteLine("2. Menghapus Data");
+                    Console.WriteLine("3. Menampilkan Data");
                     Console.WriteLine("4. Exit");
                     Console.Write("M\nEnter your choice (1-4): ");
                     ch = Convert.ToChar(Console.ReadLine());
