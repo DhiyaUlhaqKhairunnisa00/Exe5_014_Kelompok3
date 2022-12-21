@@ -31,6 +31,7 @@ namespace Exe5_20210140014_Kelompok3
             {
                 DhiyaUlhaq = newNode;
                 Khairunnisa = newNode;
+                return;
             }
             Khairunnisa.next = newNode;
             Khairunnisa = newNode;
