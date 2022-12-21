@@ -72,7 +72,11 @@ namespace Exe5_20210140014_Kelompok3
                     Console.WriteLine();
                     switch (ch)
                     {
-
+                        case '1':
+                            {
+                                q.insert();
+                                break;
+                            }
                     }
                 }
                 catch (Exception e)
