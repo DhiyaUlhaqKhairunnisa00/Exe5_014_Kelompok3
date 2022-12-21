@@ -11,4 +11,8 @@ namespace Exe5_20210140014_Kelompok3
         public string name;
         public Node next;
     }
+    class Queue
+    {
+        Node DhiyaUlhaq, Khairunnisa;
+    }
 }
