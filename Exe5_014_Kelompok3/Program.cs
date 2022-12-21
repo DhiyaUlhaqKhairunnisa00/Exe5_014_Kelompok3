@@ -35,5 +35,16 @@ namespace Exe5_20210140014_Kelompok3
             Khairunnisa.next = newNode;
             Khairunnisa = newNode;
         }
+        public void delete()
+        {
+            if(DhiyaUlhaq == null)
+            {
+                Console.WriteLine("Queue is Empty");
+                return;
+            }
+            DhiyaUlhaq = DhiyaUlhaq.next;
+            if (DhiyaUlhaq == null)
+                Khairunnisa = null;
+        }
     }
 }
