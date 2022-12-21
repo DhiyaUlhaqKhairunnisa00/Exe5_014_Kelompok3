@@ -54,6 +54,10 @@ namespace Exe5_20210140014_Kelompok3
                 Console.WriteLine("Queue is Empty");
                 return;
             }
+
+            Node tampil;
+            for (tampil = DhiyaUlhaq; tampil != null; tampil = tampil.next)
+                Console.WriteLine(tampil.name);
         }
         static void Main(string[] args)
         {
