@@ -23,8 +23,17 @@ namespace Exe5_20210140014_Kelompok3
         {
             string nm;
             Node newNode = new Node();
-            Console.WriteLine("Masukkan Element");
+            Console.WriteLine("Masukkan Element: ");
             nm = Console.ReadLine();
+            newNode.name = nm;
+            newNode.next = null;
+            if(DhiyaUlhaq == null)
+            {
+                DhiyaUlhaq = newNode;
+                Khairunnisa = newNode;
+            }
+            Khairunnisa.next = newNode;
+            Khairunnisa = newNode;
         }
     }
 }
