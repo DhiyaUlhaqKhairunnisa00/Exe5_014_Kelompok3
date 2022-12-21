@@ -67,7 +67,7 @@ namespace Exe5_20210140014_Kelompok3
                     Console.WriteLine("2. Menghapus Data");
                     Console.WriteLine("3. Menampilkan Data");
                     Console.WriteLine("4. Exit");
-                    Console.Write("M\nEnter your choice (1-4): ");
+                    Console.Write("M\nMasukkan Pilihan Anda(1-4): ");
                     ch = Convert.ToChar(Console.ReadLine());
                     Console.WriteLine();
                     switch (ch)
